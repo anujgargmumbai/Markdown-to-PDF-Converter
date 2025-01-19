@@ -27,27 +27,12 @@ git clone <repository-url>
 cd <repository-folder>
 ```
 
-### 2. Create a Virtual Environment
+### 2. Install Dependencies
 ```bash
-python -m venv venv
+pip install streamlit markdown reportlab beautifulsoup4
 ```
 
-### 3. Activate the Virtual Environment
-- **Windows**:
-  ```bash
-  .\venv\Scripts\activate
-  ```
-- **Mac/Linux**:
-  ```bash
-  source venv/bin/activate
-  ```
-
-### 4. Install Dependencies
-```bash
-pip install -r requirements.txt
-```
-
-### 5. Install Additional Fonts
+### 3. Install Additional Fonts
 Download and install the DejaVuSans font from [DejaVu Fonts](https://dejavu-fonts.github.io/), then place the `DejaVuSans.ttf` file in the project directory.
 
 ## Running the Application
@@ -76,19 +61,8 @@ http://localhost:8501
 ```
 project-folder/
 ├── app.py                 # Main Streamlit application file
-├── requirements.txt       # Python dependencies
 ├── DejaVuSans.ttf         # Font file for Unicode support
 ├── README.md              # Project documentation
-```
-
-## Requirements File
-Ensure the following dependencies are listed in your `requirements.txt` file:
-
-```
-streamlit
-markdown
-reportlab
-beautifulsoup4
 ```
 
 ## Customization
