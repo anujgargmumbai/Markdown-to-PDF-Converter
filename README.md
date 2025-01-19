@@ -1,0 +1,2 @@
+# Markdown to PDF Converter
+ The Markdown to PDF Converter is a tool that transforms Markdown text into professionally formatted PDF documents. It supports headings, lists, and checkboxes, ensuring visually appealing layouts. Users can input text directly or upload Markdown files, select page sizes (Letter or A4), and download the generated PDF with ease. Perfect for creating polished documents from simple Markdown syntax!
